@@ -1,0 +1,319 @@
+body, p, ul, h1, h2, h3{
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+/* ul li{
+  list-style: none;
+} */
+
+.content-icon {
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+
+body {
+  border-top: 8px solid rgb(108, 198, 196);
+  background-color: rgb(247, 241, 241);
+}
+
+header {
+  height: 150px;
+}
+
+.body-margin {
+  margin: 0 215px;
+}
+
+.logo-left {
+  float: left;
+  margin: 50px 0;
+  display: flex;
+  
+}
+
+.logo-left img {
+  justify-content: center;
+}
+
+.logo-right {
+  float: right;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.logo-right h3 {
+  font-size: 25px;
+  font-weight: normal;
+  margin: 15px 0 3px 0;
+}
+
+.logo-right h3 > i {
+  margin-right: 15px;
+}
+
+.logo-right p {
+  font-size: 10px;
+}
+
+.time {
+  padding: 5px 25px;
+  border: solid black 0.5px;
+}
+
+.time span {
+  color: red;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+nav li {
+  width: 20%;
+  list-style: none;
+}
+
+.top-btn {
+  background-color: rgb(108, 198, 196);
+  opacity: 0.9;
+  text-align: center;
+  padding: 20px 20px;
+  color: white;
+  border: solid rgb(156, 223, 219) 0.05px;
+  font-size: 12px;
+  font-weight: bold;
+} 
+
+.nav-left-btn {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.nav-right-btn {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.contents {
+  height: 750px;
+}
+
+.right-contents {
+  float: right;
+}
+
+.left-contents {
+  float: left;
+}
+
+.left-content1 {
+  border: solid rgb(108, 198, 196) 0.5px;
+  color: white;
+}
+
+.left-content1 ul {
+  padding:10px 20px 20px 0; 
+  background-color: white;
+}
+
+.left-content1 h3 {
+  background-color: rgb(108, 198, 196);
+  padding: 10px 170px 10px 27px;
+  font-size: 15px;
+}
+
+.left-content1 li {
+  color: black;
+  padding: 5px 0 5px 0; 
+  margin-left: 10px;
+  list-style: none;
+}
+
+.left-content1 a {
+  border-bottom: solid 1px rgb(108, 198, 196);
+  color: black;
+  padding-left: 15px;
+  
+}
+.left-content2 {
+  border: solid rgb(108, 198, 196) 0.5px;
+  color: white;
+  margin-top: 20px;
+}
+
+.left-content2 ul {
+  padding:10px 20px 20px 0; 
+  background-color: white;
+}
+
+.left-content2 h3 {
+  background-color: rgb(108, 198, 196);
+  padding: 10px 170px 10px 25px;
+  font-size: 15px;
+}
+
+.left-content2 li {
+  color: black;
+  padding: 5px 0 5px 0; 
+  margin-left: 10px;
+  list-style-type: square;
+  list-style: none;
+}
+
+.left-content2 a {
+  border-bottom: solid 1px rgb(108, 198, 196);
+  color: black;
+  padding-left: 15px;
+  
+}
+
+.bottom-content {
+  background-color: white;
+  width: 640px;
+  height: 450px;
+}
+
+.bottom-tittle {
+  padding: 30px 0 10px 20px;
+  font-size: 18px;
+  border-bottom: solid 3px rgb(108, 198, 196);
+  margin-bottom: 20px;
+}
+
+.content1 {
+  margin: 20 0px;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.date1 {
+  float: left;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.news1 {
+  float: right;
+  font-size: 13px;
+  width: 430px;
+}
+
+.content2 {
+  margin: 20 0px;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.date2 {
+  float: left;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.news2 {
+  float: right;
+  font-size: 13px;
+  width: 430px;
+}
+
+.content3 {
+  margin: 20 0px;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.date3 {
+  float: left;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.news3 {
+  float: right;
+  font-size: 13px;
+  width: 430px;
+}
+
+.content4 {
+  margin: 20 0px;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.date4 {
+  float: left;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.news4 {
+  float: right;
+  font-size: 13px;
+  width: 430px;
+}
+
+.content5 {
+  margin: 20 0px;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.date5 {
+  float: left;
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.news5 {
+  float: right;
+  font-size: 13px;
+  width: 430px;
+}
+
+.footer-nav {
+  height: 60px;
+  border-bottom: solid 3px rgb(108, 198, 196);
+}
+
+.footer-nav ul {
+  height: 25px;
+  background-color: rgb(108, 198, 196);
+  text-align: left;
+}
+
+.footer-nav li{
+  float: left;
+  margin-left: 30px;
+  color: white;
+  list-style-type: circle;
+}
+
+.footer-nav li::before {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-nav a {
+  color: white;
+  font-size: 13px;
+}
+
+.footer-nav h1 {
+  font-size: 13px;
+  float: right;
+  margin-top: 5px;
+}
+
+footer h1 {
+  margin: 20px 0;
+  font-size: 10px;
+  text-align: center;
+}
